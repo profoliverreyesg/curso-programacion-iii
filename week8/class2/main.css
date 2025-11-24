@@ -1,0 +1,18 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: flex;
+    
+}
+.fondo{
+    width: 1600px;
+    background-color: blue;
+}
+.entradas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

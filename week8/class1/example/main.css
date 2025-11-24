@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+.container .background {
+    width: 1600px;
+    background-image: url('https://www.in2code.de/fileadmin/_processed_/0/b/csm_code_javascript_49d002a67e.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    height: 100%;
+    width: auto;
+    
+}
+
+.form .form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 0 40px;
+}
+
+.form .form-header .logo {
+    height: 80px;
+    object-fit: contain;
+}
+
+.form form {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px 40px;
+}
+
+.form h2 {
+     font-size: small;
+     font-weight: normal;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
